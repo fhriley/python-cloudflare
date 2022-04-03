@@ -358,6 +358,7 @@ def accounts(self):
     self.add('AUTH', "accounts", "billing/profile")
 
     self.add('AUTH', 'accounts', 'cfd_tunnel')
+    self.add('AUTH', 'accounts', 'cfd_tunnel', 'configurations')
     self.add('AUTH', 'accounts', 'cfd_tunnel', 'connections')
     self.add('AUTH', 'accounts', 'cfd_tunnel', 'token')
 
